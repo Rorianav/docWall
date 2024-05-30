@@ -14,6 +14,8 @@
 		0DA62AD82C056D7E00ACE835 /* docWallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA62AD72C056D7E00ACE835 /* docWallTests.swift */; };
 		0DA62AE22C056D7E00ACE835 /* docWallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA62AE12C056D7E00ACE835 /* docWallUITests.swift */; };
 		0DA62AE42C056D7E00ACE835 /* docWallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA62AE32C056D7E00ACE835 /* docWallUITestsLaunchTests.swift */; };
+		0DA62AF32C056E0000ACE835 /* Docs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA62AF22C056E0000ACE835 /* Docs.swift */; };
+		0DA62AF52C05729700ACE835 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA62AF42C05729700ACE835 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0DA62ADD2C056D7E00ACE835 /* docWallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = docWallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA62AE12C056D7E00ACE835 /* docWallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = docWallUITests.swift; sourceTree = "<group>"; };
 		0DA62AE32C056D7E00ACE835 /* docWallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = docWallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DA62AF22C056E0000ACE835 /* Docs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docs.swift; sourceTree = "<group>"; };
+		0DA62AF42C05729700ACE835 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		0DA62AC52C056D7B00ACE835 /* docWall */ = {
 			isa = PBXGroup;
 			children = (
+				0DA62AF12C056DB200ACE835 /* Model */,
+				0DA62AF02C056DAA00ACE835 /* View */,
 				0DA62AC62C056D7B00ACE835 /* docWallApp.swift */,
 				0DA62AC82C056D7B00ACE835 /* ContentView.swift */,
 				0DA62ACA2C056D7D00ACE835 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				0DA62AE32C056D7E00ACE835 /* docWallUITestsLaunchTests.swift */,
 			);
 			path = docWallUITests;
+			sourceTree = "<group>";
+		};
+		0DA62AF02C056DAA00ACE835 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DA62AF42C05729700ACE835 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DA62AF12C056DB200ACE835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DA62AF22C056E0000ACE835 /* Docs.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA62AC92C056D7B00ACE835 /* ContentView.swift in Sources */,
+				0DA62AF32C056E0000ACE835 /* Docs.swift in Sources */,
+				0DA62AF52C05729700ACE835 /* Home.swift in Sources */,
 				0DA62AC72C056D7B00ACE835 /* docWallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"docWall/Preview Content\"";
+				DEVELOPMENT_TEAM = SYL9ZY89LT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"docWall/Preview Content\"";
+				DEVELOPMENT_TEAM = SYL9ZY89LT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
